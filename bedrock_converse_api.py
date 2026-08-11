@@ -63,7 +63,7 @@ def main():
     logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
     # model_id = "anthropic.claude-3-sonnet-20240229-v1:0"
-    model_id = "anthropic.claude-sonnet-4-6"
+    model_id = "us.anthropic.claude-sonnet-4-6"
 
     # Setup the system prompts and messages to send to the model.
     system_prompts = [
